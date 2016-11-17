@@ -1,8 +1,8 @@
 {
-  "name": "angular-scrollable",
-  "description": "AngularJS directive for scrollable content.",
+  "name": "angular-scroller",
+  "description": "AngularJS directive for scroller content.",
   "main": [
-    "dist/css/scrollable.css",
+    "dist/css/scroller.css",
     "dist/js/angular-scrollable.js"
   ],
   "authors": [
@@ -10,7 +10,7 @@
   ],
   "license": "MIT",
   "keywords": ["scrollable","iscroll","angular","directive"],
-  "homepage": "https://github.com/afeiship/angular-scrollable",
+  "homepage": "https://github.com/afeiship/angular-scroller",
   "moduleType": [
     "amd"
   ],

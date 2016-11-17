@@ -2,7 +2,7 @@
   "name": "angular-scrollable",
   "version": "1.0.0",
   "description": "AngularJS directive for scrollable content.",
-  "homepage": "https://github.com/afeiship/angular-scrollable",
+  "homepage": "https://github.com/afeiship/angular-scroller",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"

@@ -27,9 +27,9 @@ var config = {
 
 var scripts = [
   './src/angular/main.js',
-  './src/angular/directive/scrollable.js',
-  './src/angular/service/scrollable.js',
-  './src/angular/filter/scrollable.js'
+  './src/angular/directive/scroller.js',
+  './src/angular/service/scroller.js',
+  './src/angular/filter/scroller.js'
 ];
 
 
