@@ -36,7 +36,7 @@ gulp.task('clean', function () {
 });
 
 gulp.task('sass', function () {
-  return gulp.src(config.src + '/sass/scrollable.scss')
+  return gulp.src(config.src + '/sass/scroller.scss')
     .pipe(sourcemaps.init())
     .pipe(sass(config.sassOptions).on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
@@ -53,7 +53,7 @@ gulp.task('sass', function () {
 
 gulp.task('scripts', function () {
   return gulp.src(scripts)
-    .pipe(concat('angular-scrollable.js'))
+    .pipe(concat('angular-scroller.js'))
     .pipe(gulp.dest('dist/js'))
     .pipe(uglify())
     .pipe(rename({

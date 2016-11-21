@@ -11,14 +11,54 @@
       font-family: 'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     }
+    *{
+      padding: 0;
+      margin:0;
+    }
 
     [ng-cloak] {
       display: none;
     }
+    .test1 .item{
+      height:50px;
+      line-height: 50px;
+      background: #eee;
+    }
+    .test1 .item:nth-child(2n){
+      background: #ccc;
+    }
+
+    .t2{
+
+    }
   </style>
 </head>
 <body ng-controller="MainCtrl as vm" ng-cloak>
-
+<!-- ul>li.item{item-$}*10 -->
+<nx-scroller css-class="t2" height="300">
+  <ul class="test1">
+    <li class="item">item-1</li>
+    <li class="item">item-2</li>
+    <li class="item">item-3</li>
+    <li class="item">item-4</li>
+    <li class="item">item-5</li>
+    <li class="item">item-6</li>
+    <li class="item">item-7</li>
+    <li class="item">item-8</li>
+    <li class="item">item-9</li>
+    <li class="item">item-10</li>
+    <li class="item">item-1</li>
+    <li class="item">item-2</li>
+    <li class="item">item-3</li>
+    <li class="item">item-4</li>
+    <li class="item">item-5</li>
+    <li class="item">item-6</li>
+    <li class="item">item-7</li>
+    <li class="item">item-8</li>
+    <li class="item">item-9</li>
+    <li class="item">item-10</li>
+  </ul>
+</nx-scroller>
 
 
 <script type="text/javascript" src="../bower_components/angular/angular.js"></script>

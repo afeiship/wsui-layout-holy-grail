@@ -1,6 +1,13 @@
 (function () {
   'use strict';
 
+  angular.module('nx.widget', []);
+
+})();
+
+(function () {
+  'use strict';
+
   angular.module('nx.widget')
     .directive('nxScroller', ['$timeout','$window',function ($timeout,$window) {
       return {
@@ -15,6 +22,7 @@
           var bodyElement = angular.element(document.body);
           var wrapper=document.querySelector('.nx-widget-scroller-wrapper');
           var scroller=document.querySelector('.nx-widget-scroller-bd');
+          console.log(scroller,wrapper);
           var startY,deltaY,dragOffset;
 
           elem.css({

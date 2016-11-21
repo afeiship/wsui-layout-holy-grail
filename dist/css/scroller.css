@@ -1,0 +1,8 @@
+/**scroller Start**/
+.nx-widget-scroller-wrapper {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+/**scroller  End**/

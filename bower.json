@@ -3,7 +3,7 @@
   "description": "AngularJS directive for scroller content.",
   "main": [
     "dist/css/scroller.css",
-    "dist/js/angular-scrollable.js"
+    "dist/js/angular-scroller.js"
   ],
   "authors": [
     "afei"
