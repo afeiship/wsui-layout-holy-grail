@@ -1,0 +1,33 @@
+/*wsui-layout-holy-grail Start*/
+$wsui-layout-holy-grail-options: () !default;
+
+// https://flexbox.ninja/demos/holy-grail-layout/
+.wsui-layout-holy-grail {
+  min-height: 100vh;
+
+  /**
+ * Let's do a column distribution
+ * (mobile first)
+ * flex value is 1 1 auto to make
+ * body skrinkable and extensible
+ */
+  &,
+  .hg-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
+  .hg-body {
+    flex-direction: row;
+  }
+
+  .hg-content {
+    flex: 1 1 auto;
+  }
+
+  .hg-sidebar-1 {
+    order: -1;
+  }
+}
+/*wsui-layout-holy-grail End*/

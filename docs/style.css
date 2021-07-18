@@ -1,0 +1,34 @@
+/*wsui-layout-holy-grail Start*/
+.wsui-layout-holy-grail {
+  min-height: 100vh;
+  /**
+ * Let's do a column distribution
+ * (mobile first)
+ * flex value is 1 1 auto to make
+ * body skrinkable and extensible
+ */
+}
+
+.wsui-layout-holy-grail,
+.wsui-layout-holy-grail .hg-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.wsui-layout-holy-grail .hg-body {
+  flex-direction: row;
+}
+
+.wsui-layout-holy-grail .hg-content {
+  flex: 1 1 auto;
+}
+
+.wsui-layout-holy-grail .hg-sidebar-1 {
+  order: -1;
+}
+
+/*wsui-layout-holy-grail End*/
+.test-wsui-layout-holy-grail {
+  border: 1px solid red;
+}
