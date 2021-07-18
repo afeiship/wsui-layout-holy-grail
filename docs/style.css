@@ -1,12 +1,6 @@
 /*wsui-layout-holy-grail Start*/
 .wsui-layout-holy-grail {
   min-height: 100vh;
-  /**
- * Let's do a column distribution
- * (mobile first)
- * flex value is 1 1 auto to make
- * body skrinkable and extensible
- */
 }
 
 .wsui-layout-holy-grail,

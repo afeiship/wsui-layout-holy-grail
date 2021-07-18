@@ -2,15 +2,10 @@
 $wsui-layout-holy-grail-options: () !default;
 
 // https://flexbox.ninja/demos/holy-grail-layout/
+
 .wsui-layout-holy-grail {
   min-height: 100vh;
 
-  /**
- * Let's do a column distribution
- * (mobile first)
- * flex value is 1 1 auto to make
- * body skrinkable and extensible
- */
   &,
   .hg-body {
     display: flex;
