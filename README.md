@@ -19,6 +19,33 @@ npm i @jswork/wsui-layout-holy-grail
 @import '~@jswork/wsui-layout-holy-grail/dist/style.css';
 ```
 
+```html
+<!-- .wsui-layout-holy-grail > .hg-body > {.hg-content + .hg-sidebar + .hg-sidebar } -->
+<section class="wsui-layout-holy-grail">
+  <!-- Header -->
+  <header>
+    <p>Header</p>
+  </header>
+
+  <article class="hg-body">
+    <div class="hg-content">
+      <p>Main content of the page</p>
+    </div>
+    <div class="hg-sidebar-1 hg-sidebar">
+      <p>Sidebar 1</p>
+    </div>
+    <div class="hg-sidebar-2 hg-sidebar">
+      <p>Sidebar 2</p>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer>
+    <p>Footer</p>
+  </footer>
+</section>
+```
+
 ## preview
 - https://afeiship.github.io/wsui-layout-holy-grail/
 
