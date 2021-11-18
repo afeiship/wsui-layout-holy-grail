@@ -21,7 +21,13 @@ $wsui-layout-holy-grail-options: () !default;
     flex: 1 1 auto;
   }
 
-  .hg-sidebar-1 {
+  .hg-sidebar-1,
+  .hg-sidebar-2,
+  .hg-sidebar-3 {
+    flex-shrink: 0;
+  }
+
+  .hg-sidebar-1{
     order: -1;
   }
 }

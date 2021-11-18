@@ -18,6 +18,12 @@
   flex: 1 1 auto;
 }
 
+.wsui-layout-holy-grail .hg-sidebar-1,
+.wsui-layout-holy-grail .hg-sidebar-2,
+.wsui-layout-holy-grail .hg-sidebar-3 {
+  flex-shrink: 0;
+}
+
 .wsui-layout-holy-grail .hg-sidebar-1 {
   order: -1;
 }
